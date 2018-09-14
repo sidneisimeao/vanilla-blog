@@ -1,0 +1,1 @@
+#https://tableless.com.br/como-evitar-que-seu-app-react-com-redux-vire-um-ninho-de-rato/
