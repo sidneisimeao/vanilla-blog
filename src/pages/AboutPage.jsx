@@ -1,5 +1,8 @@
 import React from 'react';
 
-const AboutPage = () => <section className="about-page">AboutPage</section>;
+const AboutPage = () => (
+    <section className="about-page">
+    </section>
+);
 
 export default AboutPage;

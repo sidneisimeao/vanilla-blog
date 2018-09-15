@@ -1,5 +1,11 @@
 import React from 'react';
 
-const HomePage = () => <section className="home-page">Home Page</section>
+import NavWrapper from 'components/NavWrapper';
+
+const HomePage = () => (
+   
+        <NavWrapper />
+ 
+);
 
 export default HomePage;
