@@ -1,16 +1,15 @@
 import React from 'react';
 
-import Columns from 'react-bulma-components/lib/components/columns';
 import NavHeader from 'components/NavHeader';
 import Navigation from 'components/Navigation';
 import NavFooter from 'components/NavFooter';
 
 const NavWrapper = () => (
-    <Columns.Column size={3} className='is-narrow'>
+    <div className="column 3 is-narrow">
         <NavHeader />
         <Navigation />
         <NavFooter />
-    </Columns.Column>
+    </div>
 );
 
 export default NavWrapper;
