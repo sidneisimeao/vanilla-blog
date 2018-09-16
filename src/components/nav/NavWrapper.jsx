@@ -1,8 +1,8 @@
 import React from 'react';
 
-import NavHeader from 'components/NavHeader';
-import Navigation from 'components/Navigation';
-import NavFooter from 'components/NavFooter';
+import NavHeader from 'components/nav/NavHeader';
+import Navigation from 'components/nav/Navigation';
+import NavFooter from 'components/nav/NavFooter';
 
 const NavWrapper = () => (
     <div className="column 3 is-narrow">

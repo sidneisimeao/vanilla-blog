@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-import NavWrapper from 'components/NavWrapper';
+import NavWrapper from 'components/nav/NavWrapper';
+import PostsWrapper from 'components/posts/PostsWrapper';
 
 const HomePage = () => (
-    <section className="home-page">
+    <Fragment>
         <NavWrapper />
-    </section>
+        <PostsWrapper />
+    </Fragment>
 );
 
 export default HomePage;
